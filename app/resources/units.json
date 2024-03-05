@@ -1,0 +1,87 @@
+[
+  {
+    "domain": "land",
+    "name": "army base",
+    "description": "A base for the army to store and maintain their equipment and personnel. It uses a variety railways and roads to travel."
+  },
+  {
+    "domain": "land",
+    "name": "infrastructure",
+    "description": "Infrastructure is used to move troops and equipment. It uses a variety of railways and roads to travel."
+  },
+  {
+    "domain": "land",
+    "name": "power plant",
+    "description": "Power plant is used to provide electricity to the army base and infrastructure. It uses a variety of railways and roads to travel."
+  },
+  {
+    "domain": "cyberspace",
+    "name": "network",
+    "description": "Network is used to the armed forces to communicate and share information."
+  },
+  {
+    "domain": "cyberspace",
+    "name": "data center",
+    "description": "Data center is used to store and process data for the armed forces."
+  },
+  {
+    "domain": "cyberspace",
+    "name": "server",
+    "description": "Server is used to store and process data for the armed forces."
+  },
+  {
+    "domain": "sea",
+    "name": "port",
+    "description": "Port is used to move troops and equipment. It uses a variety of ships and boats to travel."
+  },
+  {
+    "domain": "sea",
+    "name": "shipyard",
+    "description": "Shipyard is used to build and maintain ships and boats."
+  },
+  {
+    "domain": "sea",
+    "name": "lighthouse",
+    "description": "Lighthouse is used to guide ships and boats."
+  },
+  {
+    "domain": "air",
+    "name": "drone",
+    "description": "Drone is used to gather information and attack enemy targets."
+  },
+  {
+    "domain": "air",
+    "name": "airport",
+    "description": "Airport is used to move troops and equipment. It uses a variety of airplanes and helicopters to travel."
+  },
+  {
+    "domain": "air",
+    "name": "airbase",
+    "description": "Airbase is used to store and maintain airplanes and helicopters."
+  },
+  {
+    "domain": "air",
+    "name": "radar",
+    "description": "Radar is used to detect and track airplanes and helicopters."
+  },
+  {
+    "domain": "land",
+    "name": "artillery",
+    "description": "Artillery is used to attack enemy targets."
+  },
+  {
+    "domain": "cyber",
+    "name": "ministry of economics",
+    "description": "Ministry of economics is used to manage the economy of the country."
+  },
+  {
+    "domain": "cyber",
+    "name": "banking system",
+    "description": "Banking system is used to manage the economy of the country."
+  },
+  {
+    "domain": "cyber",
+    "name": "firewall",
+    "description": "Firewall is used to protect the country from cyber attacks."
+  }
+]

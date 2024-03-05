@@ -1,0 +1,14 @@
+version: "3.9"
+
+services:
+
+  app:
+    build: ./app
+    ports:
+      - 8080:8080
+    volumes:
+      - ./app:/app
+    command: python3 /app/main.py
+    env_file:
+      - .env
+    

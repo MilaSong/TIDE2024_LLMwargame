@@ -1,0 +1,15 @@
+{
+  "domain": "The domain is part of Multi Domain Operation (MDO) and is the area of operations. It can be one of the any of maritime, land, air, space and cyberspace.",
+  "land": "The land domain is the area of operations that includes the terrestrial environment. The physical object that can be damaged, destroyed, or captured.",
+  "maritime": "The maritime domain is the area of operations that includes the oceans, seas, and other navigable waters. The physical object that can be damaged, destroyed, or captured.",
+  "air": "The air domain is the area of operations that includes the atmosphere. The physical object that can be damaged, destroyed, or captured.",
+  "space": "The space domain is the area of operations that includes the celestial environment. The physical object that can be damaged, destroyed, or captured.",
+  "cyberspace": "The cyberspace domain is the area of operations that includes the digital environment. The digital object that can be damaged, destroyed or captured.",
+  "action": "The action that the user wants to take. It can be one of the any action, each action has a different target and effect on a target.",
+  "target": "The target of the action. It can be one of the any of the variables in the variables list or the MDO domain.",
+  "global_conflict": "The global conflict is a variable that represents the global conflict level. Each action has effect on the global conflict level. If value goes over 1, the game is over and the user loses.",
+  "probability": "The probability of the action to be successful.",
+  "escalation": "The escalation level of the action that the user wants to take.",
+  "affected_units": "The affected units of the action that has been taken.",
+  "affected_domains": "The affected domains of the action that has been taken."
+}

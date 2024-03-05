@@ -1,0 +1,179 @@
+{
+  "teams": [
+    {
+      "country": "Lithuania",
+      "name": "blue"
+    },
+    {
+      "country": "Belarus",
+      "name": "red"
+    }
+  ],
+  "global_conflict": 0.3,
+  "next": "red",
+  "winning": {
+    "red": {
+      "land": 20,
+      "space": 40,
+      "cyber": 50,
+      "air": 20,
+      "maritime": 30
+    },
+    "blue": {
+      "land": 80,
+      "space": 60,
+      "cyber": 50,
+      "air": 80,
+      "maritime": 70
+    }
+  },
+  "units": {
+    "blue": [
+      {
+        "name": "army base",
+        "condition": "working",
+        "location": "Vilnius"
+      },
+      {
+        "name": "ministry of economics",
+        "condition": "working",
+        "location": null
+      },
+      {
+        "name": "artillery",
+        "condition": "working",
+        "location": "Vilnius"
+      },
+      {
+        "name": "infrastructure",
+        "condition": "working",
+        "location": null
+      },
+      {
+        "name": "power plant",
+        "condition": "working",
+        "location": "Visaginas"
+      },
+      {
+        "name": "firewall",
+        "condition": "working",
+        "location": null
+      },
+      {
+        "name": "port",
+        "condition": "working",
+        "location": "Klaipeda"
+      },
+      {
+        "name": "data center",
+        "condition": "working",
+        "location": null
+      },
+      {
+        "name": "drone",
+        "condition": "working",
+        "location": "Kaunas"
+      }
+    ],
+    "red": [
+      {
+        "name": "army base",
+        "condition": "working",
+        "location": "Min**"
+      },
+      {
+        "name": "ministry of economics",
+        "condition": "working",
+        "location": null
+      },
+      {
+        "name": "banking system",
+        "condition": "working",
+        "location": null
+      },
+      {
+        "name": "artillery",
+        "condition": "working",
+        "location": "Min**"
+      },
+      {
+        "name": "infrastructure",
+        "condition": "working",
+        "location": null
+      },
+      {
+        "name": "power plant",
+        "condition": "working",
+        "location": "Mogil**"
+      },
+      {
+        "name": "server",
+        "condition": "working",
+        "location": null
+      },
+      {
+        "name": "port",
+        "condition": "working",
+        "location": "Grod**"
+      },
+      {
+        "name": "data center",
+        "condition": "working",
+        "location": null
+      },
+      {
+        "name": "drone",
+        "condition": "working",
+        "location": "Brast"
+      }
+    ]
+  },
+  "events": [
+    {
+      "title": "Red team tried to attack Vilnius",
+      "status": 0,
+      "description": "The red team tried to attack Vilnius, but it missed the target",
+      "team": "red",
+      "attacker": {
+        "domain": "land",
+        "unit": "artillery",
+        "location": "Min**"
+      },
+      "target": {
+        "domain": "land",
+        "unit": "artillery",
+        "location": "Vilnius"
+      },
+      "affected_units": [],
+      "affected_domains": []
+    },
+    {
+      "title": "Started sanctions of banking system",
+      "description": "The blue team started sanctions",
+      "team": "blue",
+      "attacker": {
+        "domain": "cyber",
+        "unit": "ministry of economics",
+        "location": null
+      },
+      "target": {
+        "domain": "cyber",
+        "unit": "banking system",
+        "location": null
+      },
+      "affected_units": [
+        {
+          "name": "banking system",
+          "condition": "disabled",
+          "location": null
+        }
+      ],
+      "affected_domains": [
+        {
+          "name": "cyber",
+          "comment": "Disruption of the banking system, had a negative impact on the economy"
+        }
+      ]
+    }
+  ]
+}
